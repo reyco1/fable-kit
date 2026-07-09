@@ -2,10 +2,10 @@
 # fable-kit installer - works two ways:
 #
 #   A) Remote (the CLI you'll actually use):
-#        curl -fsSL https://raw.githubusercontent.com/OWNER/fable-kit/main/install.sh | bash -s -- ~/path/to/project
+#        curl -fsSL https://raw.githubusercontent.com/reyco1/fable-kit/main/install.sh | bash -s -- ~/path/to/project
 #
 #   B) Local clone:
-#        git clone https://github.com/OWNER/fable-kit && ./fable-kit/install.sh ~/path/to/project
+#        git clone https://github.com/reyco1/fable-kit && ./fable-kit/install.sh ~/path/to/project
 #
 # What it sets up in the target project:
 #   - CLAUDE.md operating mode at the project root
@@ -21,14 +21,14 @@
 #   --wiki PATH       use an external wiki location instead of <project>/wiki
 #   --global-skills   install skills to ~/.claude/skills (all projects)
 #   --force           overwrite existing CLAUDE.md/docs (keeps .bak of CLAUDE.md)
-#   --repo OWNER/NAME override the GitHub repo to fetch from (remote mode)
+#   --repo OWNER/NAME  override the GitHub repo to fetch from (remote mode)
 #   --ref  BRANCH     override the git ref to fetch (default: main)
 #
 # Safe to re-run: existing files are preserved unless --force is given.
 
 set -euo pipefail
 
-REPO="${FABLE_KIT_REPO:-OWNER/fable-kit}"   # <-- set to your GitHub slug after pushing
+REPO="${FABLE_KIT_REPO:-reyco1/fable-kit}"   # <-- set to your GitHub slug after pushing
 REF="${FABLE_KIT_REF:-main}"
 TARGET="."
 WIKI=""            # empty = project-local default, resolved after TARGET is known

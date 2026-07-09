@@ -5,13 +5,13 @@ One command turns any folder into a Fable-class Claude Code starter project: ope
 ## Install (the CLI)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/OWNER/fable-kit/main/install.sh | bash -s -- /path/to/project
+curl -fsSL https://raw.githubusercontent.com/reyco1/fable-kit/main/install.sh | bash -s -- /path/to/project
 ```
 
 Or from a clone:
 
 ```bash
-git clone https://github.com/OWNER/fable-kit
+git clone https://github.com/reyco1/fable-kit
 ./fable-kit/install.sh /path/to/project
 ```
 

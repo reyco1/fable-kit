@@ -17,7 +17,7 @@ You've been given two files: **CLAUDE.md** and **FABLE-GAP-SKILLS-ROADMAP.md**. 
 Open a terminal and run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/OWNER/fable-kit/main/install.sh | bash -s -- /path/to/your/project
+curl -fsSL https://raw.githubusercontent.com/reyco1/fable-kit/main/install.sh | bash -s -- /path/to/your/project
 ```
 
 (Replace `/path/to/your/project` with the folder you want to work in - it can be brand new or an existing project. Replace `OWNER` with the GitHub account hosting fable-kit if your copy of this doc hasn't been updated with it.)
